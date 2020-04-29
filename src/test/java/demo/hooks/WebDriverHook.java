@@ -1,6 +1,5 @@
 package demo.hooks;
 
-
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import demo.webdriver.WebDriverInstance;
