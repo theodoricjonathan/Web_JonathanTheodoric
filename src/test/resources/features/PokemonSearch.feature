@@ -3,6 +3,7 @@ Feature: Search Pokemon
     Given User open bulbapedia home page
     When User input search "Pikachu" on home page and press enter
     Then User see article with title "Pikachu" on article page
+    And User see article with title "#025" on article page
 
   Scenario: Search Bulbasaur
     Given User open bulbapedia home page

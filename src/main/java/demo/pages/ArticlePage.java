@@ -7,9 +7,7 @@ import org.openqa.selenium.WebElement;
 public class ArticlePage {
     public String getTitle(){
         WebElement titleArticle = WebDriverInstance.driver.findElement(By.xpath("//big//a/span"));
-        WebElement numberArticle = WebDriverInstance.driver.findElement(By.xpath("//big//a/span"));
         String title = titleArticle.getText();
-        String number = numberArticle.getText();
         return title;
     }
 }
