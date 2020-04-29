@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Search Eevee" tests="4" skipped="2" failures="2" errors="0" timestamp="2020-04-29T08:22:24" hostname="JonathanTheodoric" time="0.016">
+<testsuite name="Search Eevee" tests="4" skipped="2" failures="2" errors="0" timestamp="2020-04-29T08:38:45" hostname="JonathanTheodoric" time="0.01">
   <properties/>
-  <testcase name="User open bulbapedia home page" classname="Search Eevee" time="0.002">
+  <testcase name="User open bulbapedia home page" classname="Search Eevee" time="0.004">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at demo.pages.HomePage.openHomePage(HomePage.java:9)
 	at demo.steps.PokemonStepDefinition.userOpenBulbapediaHomePage(PokemonStepDefinition.java:16)
 	at ✽.User open bulbapedia home page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:13)
 </failure>
   </testcase>
-  <testcase name="User input search &quot;Eevee&quot; on home page and press enter" classname="Search Eevee" time="0.003">
+  <testcase name="User input search &quot;Eevee&quot; on home page and press enter" classname="Search Eevee" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="User see article with title &quot;Eevee&quot; on article page" classname="Search Eevee" time="0.006">
+  <testcase name="User see article with title &quot;Eevee&quot; on article page" classname="Search Eevee" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="classMethod" classname="Search Eevee" time="0.05">
+  <testcase name="classMethod" classname="Search Eevee" time="0.019">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at demo.pages.HomePage.openHomePage(HomePage.java:9)
 	at demo.steps.PokemonStepDefinition.userOpenBulbapediaHomePage(PokemonStepDefinition.java:16)

@@ -9,7 +9,7 @@
 
 3 Scenarios (?[31m3 failed?[0m)
 9 Steps (?[31m3 failed?[0m, ?[36m6 skipped?[0m)
-0m0.436s
+0m0.459s
 
 
 java.lang.NullPointerException
@@ -29,7 +29,7 @@ java.lang.NullPointerException
 
 
 ]]></system-out>
-  <system-err><![CDATA[Apr 29, 2020 3:22:23 PM io.cucumber.junit.Cucumber <init>
+  <system-err><![CDATA[Apr 29, 2020 3:38:44 PM io.cucumber.junit.Cucumber <init>
 WARNING: By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning

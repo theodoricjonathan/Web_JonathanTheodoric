@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class ArticlePage {
     public String getTitle(){
-        WebElement titleArticle = WebDriverInstance.driver.findElement(By.xpath("[@class='roundy']"));
+        WebElement titleArticle = WebDriverInstance.driver.findElement(By.xpath("//table[@class='roundy']//a[@title='List of Pokémon by National Pokédex number']/span"));
         String title = titleArticle.getText();
         return title;
     }
