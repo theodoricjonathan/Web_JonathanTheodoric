@@ -10,7 +10,11 @@ public class HomePage {
 
     public void inputSearch(String keyword){
         WebElement inputSearch = WebDriverInstance.driver.findElement(By.id("searchInput"));
-        inputSearch.sendKeys(keyword + Keys. ENTER);
+        inputSearch.sendKeys(keyword);
     }
 
+    public void clickSearch(String keyword){
+        WebElement inputSearch = WebDriverInstance.driver.findElement(By.id("searchInput"));
+        inputSearch.sendKeys();
+    }
 }
