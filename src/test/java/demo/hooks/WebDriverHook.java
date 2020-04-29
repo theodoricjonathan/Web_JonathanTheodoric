@@ -6,12 +6,12 @@ import demo.webdriver.WebDriverInstance;
 
 public class WebDriverHook {
 
-    @Before (value = "@Web")
+    @Before
     public void initializeWebdriver(){
         WebDriverInstance.initialize();
     }
 
-    @After (value = "@Web")
+    @After
     public void quitWebdrver(){
         WebDriverInstance.quit();
     }

@@ -8,28 +8,94 @@
 ?[31mfile:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:12?[0m# Search Eevee
 
 3 Scenarios (?[31m3 failed?[0m)
-9 Steps (?[31m3 failed?[0m, ?[36m6 skipped?[0m)
-0m0.459s
+9 Steps (?[31m3 failed?[0m, ?[32m6 passed?[0m)
+4m5.608s
 
 
-java.lang.NullPointerException
-	at demo.pages.HomePage.openHomePage(HomePage.java:9)
-	at demo.steps.PokemonStepDefinition.userOpenBulbapediaHomePage(PokemonStepDefinition.java:16)
-	at ?.User open bulbapedia home page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:3)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JONATHANTHEODOR', ip: '172.20.10.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\JONATH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00abadc94605f55ee909387f639d32ec
+*** Element info: {Using=xpath, value=//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.pages.ArticlePage.getTitle(ArticlePage.java:9)
+	at demo.steps.PokemonStepDefinition.userSeeArticleWithTitleOnArticlePage(PokemonStepDefinition.java:24)
+	at ?.User see article with title "Pikachu" on article page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:5)
 
-java.lang.NullPointerException
-	at demo.pages.HomePage.openHomePage(HomePage.java:9)
-	at demo.steps.PokemonStepDefinition.userOpenBulbapediaHomePage(PokemonStepDefinition.java:16)
-	at ?.User open bulbapedia home page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:8)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JONATHANTHEODOR', ip: '172.20.10.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\JONATH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c6da1315264a91f275fc4593267d4b4
+*** Element info: {Using=xpath, value=//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.pages.ArticlePage.getTitle(ArticlePage.java:9)
+	at demo.steps.PokemonStepDefinition.userSeeArticleWithTitleOnArticlePage(PokemonStepDefinition.java:24)
+	at ?.User see article with title "Bulbasaur" on article page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:10)
 
-java.lang.NullPointerException
-	at demo.pages.HomePage.openHomePage(HomePage.java:9)
-	at demo.steps.PokemonStepDefinition.userOpenBulbapediaHomePage(PokemonStepDefinition.java:16)
-	at ?.User open bulbapedia home page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:13)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JONATHANTHEODOR', ip: '172.20.10.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\JONATH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97522ccfe49489b887b30304b00c54e6
+*** Element info: {Using=xpath, value=//table[@class='roundy']//a[@title='List of PokÃ©mon by National PokÃ©dex number']/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.pages.ArticlePage.getTitle(ArticlePage.java:9)
+	at demo.steps.PokemonStepDefinition.userSeeArticleWithTitleOnArticlePage(PokemonStepDefinition.java:24)
+	at ?.User see article with title "Eevee" on article page(file:///C:/Users/Jonathan%20Theodoric/IdeaProjects/Web_JonathanTheodoric/src/test/resources/features/PokemonSearch.feature:15)
 
 
 ]]></system-out>
-  <system-err><![CDATA[Apr 29, 2020 3:38:44 PM io.cucumber.junit.Cucumber <init>
+  <system-err><![CDATA[Apr 29, 2020 3:45:11 PM io.cucumber.junit.Cucumber <init>
 WARNING: By default Cucumber is running in --non-strict mode.
 This default will change to --strict and --non-strict will be removed.
 You can use --strict or @CucumberOptions(strict = true) to suppress this warning
